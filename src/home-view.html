@@ -11,9 +11,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="shared-styles.html">
 
-<dom-module id="my-view1">
+<dom-module id="home-view">
   <template>
-    <style include="shared-styles">
+    <style include="iron-positioning iron-flex iron-flex-alignment iron-flex-factors">
       :host {
         display: block;
 
@@ -27,11 +27,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <p>Ut labores minimum atomorum pro. Laudem tibique ut has.
       <p>Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Lorem ipsum dolor sit amet, per in nusquam nominavi periculis, sit elit oportere ea.Cu mei vide viris gloriatur, at populo eripuit sit.</p>
     </div>
+    <bat-toolbar></bat-toolbar>
   </template>
 
   <script>
     Polymer({
-      is: 'my-view1'
+      is: 'home-view'
     });
   </script>
 </dom-module>
